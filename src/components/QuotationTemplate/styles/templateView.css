@@ -1,0 +1,99 @@
+@import 'variables.css';
+
+.modal_header {
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: var(--big-text) !important;
+    line-height: 26px !important;
+    letter-spacing: 0.01em;
+    color: #080808 !important;
+    font-family: unset !important;
+    padding-left: 1rem !important;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .formRow > label {
+    width: 20%;
+    font-weight: 700;
+  }
+  .formRow > div {
+    width: 80%;
+  }
+  .btnSelectQuote {
+    background-color: #c4122c !important ;
+    border: 1px solid #c4122c !important;
+    font-size: var(--normal-text) !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    padding: 0.5em 1em !important;
+    min-width: 75px;
+    height: var(--button) !important;
+    max-height: 28px !important;
+    min-height: 28px !important;
+    color: #fff !important
+}
+
+.label_custom {
+    background: #F5F5F5;
+    border: 1px solid #DADADA !important;
+    box-sizing: border-box;
+    border-radius: 4px !important;
+    display: block !important;
+    width: 100%;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+
+.list_services {
+    margin-top: 20px;
+}
+
+.common_title_table {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--big-text);
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #080808;
+    margin-bottom: 25px;
+}
+
+.usb_table,.sim_hsm_table, .service_pack_table, 
+.cost_table, .hsm_for_invoice_table, .insurrance_table {
+    margin-bottom: 30px;
+}
+
+.common_title_table, .usb_table_title, .sim_hsm_table_title, 
+.service_pack_table_title, .cost_table_title, 
+.hsm_for_invoice_table_title, .insurrance_table_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #080808;
+    margin-bottom: 25px;
+}
+
+.total_price_text {
+    border-right: none !important;
+}
+
+.total_price_number {
+    border-left: none !important;
+}
+
+.close_btn {
+    background: #FFFFFF !important;
+    border: 1px solid #1A3848 !important;
+    box-sizing: border-box !important;
+    border-radius: 10px !important;
+    font-family: unset !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+}

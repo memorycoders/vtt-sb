@@ -1,0 +1,11 @@
+.vt-container {
+  padding: 10px;
+}
+.vt-tab {
+  border: none !important;
+  box-shadow: none !important;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}

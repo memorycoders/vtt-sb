@@ -1,0 +1,25 @@
+.header_row th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name_cell {
+    padding-left: 0.785714em !important;
+}
+
+.inprocess_status_cell {
+    color: #F0A40F;
+}
+
+.success_status_cell {
+    color: #16D206
+}
+
+.cancel_status_cell {
+    color: #C4122C;
+}
+
+.amount_cell {
+    color: #57A894 !important;
+}

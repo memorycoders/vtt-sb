@@ -1,0 +1,15 @@
+.dropdown_menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown_menu {
+    width: 50px;
+    min-width: 50px !important;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0 10px;
+}

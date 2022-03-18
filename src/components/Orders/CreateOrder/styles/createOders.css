@@ -1,0 +1,67 @@
+@import 'variables.css';
+
+.container {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container_loading {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_column {
+    padding-right: 20px !important;
+}
+
+.column_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.label {
+    width: 25%;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.input {
+    width: 75%;
+}
+
+.contact_peson, .child_orders, .detail_suborder {
+    margin-top: 30px;
+}
+
+.btn_edit_child_order {
+    background-color: #57A894 !important ;
+    border: 1px solid #57A894 !important;
+    font-size: var(--normal-text) !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    padding: 0.5em 1em !important;
+    min-width: 75px;
+    height: var(--button) !important;
+    max-height: 28px !important;
+    min-height: 28px !important;
+    color: #fff !important
+}
+
+.input_disbaled > input {
+    background-color: #F5F5F5 !important;
+    color: #000 !important;
+}
+
+.table_header_cell {
+    background-color: #fff !important;
+    padding-top: 0.928571em !important;
+}
+
+.err_msg {
+    color: red;
+}
+

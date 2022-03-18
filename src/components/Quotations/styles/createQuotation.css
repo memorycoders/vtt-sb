@@ -1,0 +1,64 @@
+.usb_table_title, .sim_hsm_table_title, 
+.service_pack_table_title, .cost_table_title,
+.hsm_invoice_table_title, .general_table_tilte {
+    position: relative;
+}
+
+.sim_hsm_table, .cost_table, .hsm_invoice_table {
+    margin-top: 25px;
+}
+
+.usb_table_title h4 {
+    margin-bottom: 0px;
+}
+
+.table_header_footer, .usb_table_footer {
+    background-color: #fff !important;
+}
+
+.btnSelectQuote {
+    background-color: #c4122c !important;
+    border: 1px solid #c4122c !important;
+    font-size: var(--normal-text) !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    padding: 0.5em 1em !important;
+    min-width: 75px;
+    height: var(--button) !important;
+    max-height: 28px !important;
+    min-height: 28px !important;
+    color: #fff !important
+}
+
+.btn_add_table {
+    background-color: #c4122c !important;
+    border: 1px solid #c4122c !important;
+    font-size: var(--normal-text) !important;
+    font-weight: 500 !important;
+    border-radius: 5px !important;
+    padding: 0.5em 1em !important;
+    min-width: 75px;
+    height: var(--button) !important;
+    max-height: 28px !important;
+    min-height: 28px !important;
+    color: #fff !important;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+.input_align_center > input {
+    text-align: center !important;
+}
+
+.err_msg {
+    color: red;
+}
+
+.loading {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
